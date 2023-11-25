@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>invoice</title>
 </head>
-<body style="padding:20px 20px 10px 20px; width: 90%; margin:30px auto auto auto; border:0.8px solid #101e46;border-radius: 8px;">
+<body style="padding:20px 20px 20px 20px; width: 90%; margin:30px auto auto auto; border:0.8px solid #101e46;border-radius: 8px; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
     <section>
 		<!-- top heading -->
         <div style="display: flex; align-items:center; justify-content:space-between; position:relative">
@@ -127,7 +127,7 @@
 		<!-- bill to and invoice no. -->
 		<div style="display: flex; align-items:center; justify-content:space-between">
 			<div>
-				<p style="margin: 0; padding:10px 0px 0px 0px;">Bill To</p>
+				<p style="margin: 0; padding:10px 0px 0px 0px;">Bill To :</p>
 				<p style="margin: 0; padding:10px 0px 0px 0px;">Muhammad Adshraful</p>
 				<p style="margin: 0; padding:10px 0px 0px 0px;">01362834587</p>
 			</div>
@@ -212,30 +212,26 @@
     		</tr>
 
 			<!-- calculation div should placed bellow amount row -->
-			<div style="display: flex; justify-content:flex-end">
-				<tr style="text-align: right; background-color:#f2f2f2; display:flex; flex-direction:column; padding: 20px 30px 30px 20px;">
-				<td style="margin: 0; padding:10px 0px 0px 0px;">Sub Total : ৳1450</>
-				<td style="margin: 0; padding:10px 0px 0px 0px;">Shipping Charge : ৳14</>
-				<td style="margin: 0; padding:10px 0px 0px 0px;">Total : ৳1450</>
-				<td style="margin: 0; padding:10px 0px 0px 0px;">Amount Paid : ৳1450</>
-				<td style="margin: 0; padding:10px 0px 0px 0px;">Due Balance : ৳1450</>
-			</tr>
-			</div>
-
-			</table>
-			
+			<!-- Total Calculation Row -->
+    		<tr style="background-color:#ffffff;">
+        		<!-- Cells for total calculation -->
+        		<td colspan="8" style="padding: 30px 110px 0px 20px;">
+            		<div style="display: flex; justify-content: flex-end; flex-wrap: wrap;">
+                		<div style="flex: 0 0 100%; text-align: right; padding: 20px 0px 20px 0px;">
+                    		<span>Sub Total : ৳1450</span><br>
+                    		<span>Shipping Charge : ৳14</span><br>
+                    		<span>Total : ৳1450</span><br>
+                    		<span>Amount Paid : ৳1450</span><br>
+                    		<span>Due Balance : ৳0</span><br>
+                		</div>
+            		</div>
+        		</td>
+    		</tr>
+			</table>	
 		</div>
-		<!-- amounts and calculation div -->
 		<div>
-			<table style="display: flex; justify-content:flex-end; padding:10px 50px;">
-				<tr style="text-align: right; background-color:#f2f2f2; display:flex; flex-direction:column; padding: 20px 30px 30px 20px;">
-					<td style="margin: 0; padding:10px 0px 0px 0px;">Sub Total : ৳1450</>
-					<td style="margin: 0; padding:10px 0px 0px 0px;">Shipping Charge : ৳14</>
-					<td style="margin: 0; padding:10px 0px 0px 0px;">Total : ৳1450</>
-					<td style="margin: 0; padding:10px 0px 0px 0px;">Amount Paid : ৳1450</>
-					<td style="margin: 0; padding:10px 0px 0px 0px;">Due Balance : ৳1450</>
-				</tr>
-			</table>
+			<p>Terms & Conditions:</p>
+			<p>All services provided are subject to the terms and conditions outlined in the contract agreement letter</p>
 		</div>
     </section>
 </body>
